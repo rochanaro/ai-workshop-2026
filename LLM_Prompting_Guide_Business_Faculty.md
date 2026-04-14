@@ -3,12 +3,6 @@
 
 ---
 
-**Author**: Rochana R. Obadage  
-**Date**: March 2026  
-**Audience**: Business & Finance Faculty
-
----
-
 ## Table of Contents
 
 1. [Introduction to LLM Prompting](#introduction)
@@ -32,7 +26,7 @@
 
 - **Claude (Anthropic)**: Excellent for long documents, detailed analysis, coding, ethical reasoning
 - **Gemini (Google)**: Multimodal (handles text + images), integrated with Google Workspace
-- **ChatGPT/GPT-4 (OpenAI)**: Versatile, widely integrated, strong creative capabilities
+- **ChatGPT/GPT-5 (OpenAI)**: Versatile, widely integrated, strong creative capabilities
 
 ### Key Principle:
 **Garbage In = Garbage Out** | **Quality In = Quality Out**
@@ -45,11 +39,13 @@ The better your prompt, the better the response!
 
 ### ✅ The CLEAR Framework:
 
-1. **C**ontext - Provide background information
-2. **L**ength - Specify desired output length
-3. **E**xamples - Give examples when possible
-4. **A**udience - Define who the output is for
-5. **R**ole - Assign a role to the AI
+| Letter | Stands For | Meaning |
+|---|---|---|
+| **C** | Context | Provide background information |
+| **L** | Length | Specify desired output length |
+| **E** | Examples | Give examples when possible |
+| **A** | Audience | Define who the output is for |
+| **R** | Role | Assign a role to the AI |
 
 ### Basic Prompt Structure:
 
@@ -75,6 +71,8 @@ Use simple language and avoid jargon where possible.
 ---
 
 ## 3. Claude Prompting Examples {#claude-examples}
+
+https://claude.ai/chat/
 
 ### 3.1 Financial Analysis
 
@@ -275,13 +273,17 @@ Write as if explaining to non-technical business executives.
 
 ## 4. Gemini Prompting Examples {#gemini-examples}
 
+https://gemini.google.com/
+
 ### 4.1 Multimodal Analysis (Text + Images)
 
 #### Task: Analyzing Charts and Graphs
 
 **Prompt:**
+
+example image: https://www.geekwire.com/2025/amazons-quarterly-profits-soar-to-a-record-20-billion-but-cloud-growth-comes-up-short/
 ```
-[Upload image of financial chart]
+[Upload/paste image of financial chart]
 
 Analyze this quarterly revenue chart and:
 1. Identify key trends and patterns
@@ -398,11 +400,18 @@ Keep it balanced - neither overly bullish nor bearish.
 
 ## 5. Image Generation Prompts {#image-generation}
 
+https://gemini.google.com/ (free for ODU faculty and students - login using ODU email)
+
+https://chatgpt.com/
+
+https://openai.com/index/dall-e-3/
+
+
 ### 5.1 Business Presentation Graphics
 
 #### Concept Illustrations
 
-**Prompt for DALL-E/Midjourney/Stable Diffusion:**
+**Prompt for Nano-Banana/DALL-E/Midjourney/Stable Diffusion:**
 ```
 Create a professional business illustration showing:
 
@@ -1287,15 +1296,11 @@ Prompt engineering is becoming as important as:
 
 - **OpenAI Prompt Engineering Guide**: https://platform.openai.com/docs/guides/prompt-engineering
 - **Anthropic Claude Best Practices**: https://docs.anthropic.com/claude/docs/
-- **Google AI Studio**: https://ai.google.dev/tutorials/prompting_quickstart
-- **Prompt Engineering Course** (DeepLearning.AI): Free on Coursera
+- **Google Skills**: https://www.skills.google/paths/2337/course_templates/1229
 
 ---
 
-**Happy Prompting!**
 
-**Questions?** Contact: Rochana R. Obadage
 
----
-
-*Last Updated: March 2026*
+**Instructor**: [Rochana R. Obadage](https://rochanaro.github.io/)  
+**Last Updated**: April 17, 2026
